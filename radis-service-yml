@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: service
+metadata:
+  name: radis-service
+  labels:
+    name:
+     app: demo-volting-app
+ spec:
